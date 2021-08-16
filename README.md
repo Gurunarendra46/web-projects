@@ -7,3 +7,5 @@ Digital Clock : https://jaysurya9.github.io/web-projects/digital-clock-1.html
 
 Home Page Sample : https://jaysurya9.github.io/web-projects/Static-WebSite-Sample/home.html
 
+Social Icons: https://jaysurya9.github.io/web-projects/Social-Icons.html
+
