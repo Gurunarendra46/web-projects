@@ -1,12 +1,15 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <style>	
@@ -48,32 +51,34 @@ input[type=text]{
 
 
 <body>
-  <center>
-	<!-- Section 1 -->
-	    <header>
-		<h2>Search Movie</h2>
-		<form  id="form">
-		    <input type="text" placeholder="Search Movie/Show" id="search" class="search">
-		    <button id="search" class="search">Search</button>
-		</form>
-	    </header>
-	<!-- / Section 1 -->
-	
-	<!-- Section 2 -->
-	    <div class="w3-container">
-		<h3>Movies</h3>
-	    </div>
-	<!-- / Section 2 -->
-	
-	<!-- Section 3 -->
-	    <main id="main"> 
+<center>
 
-	    </main>
-	<!-- / Section 3 -->    
-  </center>
+<!-- Section 1 -->
+
+    <header>
+    	<h2>Search Movie</h2>
+        <form  id="form">
+            <input type="text" placeholder="Search Movie/Show" id="search" class="search">
+            <button id="search" class="search">Search</button>
+        </form>
+    </header>
+<!-- / Section 1 -->
+
+<div class="w3-container">
+	<h3>Movies</h3>
+</div>
+
+<!-- Section 2 -->
+    <main id="main"> 
+    
+    </main>
+<!-- / Section 2 -->    
+
+</center>
 </body>
 
 <script>
+
 //TMDB
 
 const API_KEY = 'api_key=9a85a018f878f3af62f324c75c332248';
@@ -126,7 +131,7 @@ function showMovies(data) {
         movieEl.innerHTML = `             
     <div class="w3-container w3-col l3 s6">
         <img src="${poster_path? IMG_URL+poster_path: "http://via.placeholder.com/1080x1580" }" alt="${title}" style="width:100%">
-        <p style="text-align:left;font-size:14px;"> ${title.slice(0,35)} <br> <strong> ${vote_average} </strong> <br>
+        <p style="text-align:left;font-size:0.9em;"> ${title.slice(0,35)} <br> <strong> ${vote_average} </strong> <br>
         </p>
     </div>
         `
