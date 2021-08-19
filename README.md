@@ -9,3 +9,4 @@ Home Page Sample : https://jaysurya9.github.io/web-projects/Static-WebSite-Sampl
 
 Social Icons: https://jaysurya9.github.io/web-projects/Social-Icons.html
 
+TMDB API : https://jaysurya9.github.io/web-projects/tmdb-api.html
